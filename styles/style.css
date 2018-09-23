@@ -1,0 +1,168 @@
+
+
+/* ---------------------------- */
+/* BASIC SETUP */
+/* ---------------------------- */
+
+html,
+body {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+
+/* ---------------------------- */
+/* REUSABLE COMPONENTS */
+/* ---------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0px
+}
+
+/* ---------------------------- */
+/* HEADER */
+/* ---------------------------- */
+
+header {
+    margin: 10px 0;
+    clear: both;
+}
+
+.logo {
+    width: 100%;
+    /*
+    margin: 20px 0 40px 50px;
+    */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.kontakt-box {
+    background-color:black;
+    width: 60%;
+    margin: auto;
+    border: solid 1px black; border-radius:6px; 
+}
+.kontakt { 
+    color: white;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+.kontakt span {
+    color: rgba(243,146,0,1);
+}
+.logo-sipky {
+    display: inline-block;
+    margin: 10px 10px 10px 20px;
+    width: 30px;
+    height: 20px;
+}
+
+img {
+    width: 120px;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.obrazky {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* ---------------------------- */
+/* HEADINGS */
+/* ---------------------------- */
+
+h1,
+h2,
+h3 {
+    
+}
+
+h1 {
+    float: left;
+    font-size: 200%;
+}
+
+h2 {
+    margin: 2rem 0;
+    font-size: 110%;
+    font-weight: 600;
+    text-align: left
+}
+
+/* ---------------------------- */
+/* DEFAULT VALUES */
+/* ---------------------------- */
+
+p {
+    color:black;
+    text-align: left;
+}
+.orange{
+    color:  rgba(243,146,0,1);
+}
+
+/* ---------------------------- */
+/* HLAVNÍ NAVIGACE */
+/* ---------------------------- */
+.extended{
+    width: 100%;
+    max-width: 100%;
+}
+nav {
+    background-color: black;
+    width: 100%;
+}
+
+.hlavni-navigace {
+    margin: auto;
+    max-width: 1140px;
+    height: 50px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hlavni-navigace li {
+    display: block;
+    width: 25%;
+    text-align: center;
+
+}
+.hlavni-navigace li a {
+    display: block;
+    height: 100%;
+    line-height: 50px;
+}
+
+.hlavni-navigace li a:link,
+.hlavni-navigace li a:visited {
+    color: #fff;
+    font-size: 90%;
+    text-decoration: none;
+    color: white;
+}
+
+.hlavni-navigace li a:hover,
+.hlavni-navigace li a:active {
+    background-color: #e67e22;
+}
