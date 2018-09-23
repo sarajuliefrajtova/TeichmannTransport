@@ -103,8 +103,13 @@ h1 {
 h2 {
     margin: 2rem 0;
     font-size: 110%;
-    font-weight: 600;
+    font-weight: 500;
     text-align: left
+}
+
+h3 {
+    font-size: 140%;
+    font-weight: 500;
 }
 
 /* ---------------------------- */
