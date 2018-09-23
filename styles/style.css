@@ -137,7 +137,7 @@ nav {
 }
 
 .hlavni-navigace {
-    margin: auto;
+    margin: 2rem auto;
     max-width: 1140px;
     height: 50px;
     list-style: none;
@@ -168,6 +168,49 @@ nav {
 }
 
 .hlavni-navigace li a:hover,
-.hlavni-navigace li a:active {
+.hlavni-navigace li a.active {
     background-color: #e67e22;
+}
+
+/* ---------------------------- */
+/* POD NAVIGACÍ */
+/* ---------------------------- */
+
+.letecka-preprava {
+    padding: 30px;
+}
+
+.silnicni-preprava {
+    padding: 30px;
+}
+
+.lodni-preprava {
+    padding: 30px;
+    text-align: center;
+}
+
+.kontakty {
+    padding: 30px;
+} 
+
+/* ---------------------------- */
+/* FORMULÁŘ */
+/* ---------------------------- */
+
+.section-form {
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+.contact-form {
+    width: 150%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 60%;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 3px;
 }

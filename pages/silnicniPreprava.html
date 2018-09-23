@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./styles/grid.css">
-    <link rel="stylesheet" href="styles/style.css">  
+    <link rel="stylesheet" href="../styles/grid.css">
+    <link rel="stylesheet" href="../styles/style.css">  
     <title>Teichmann Tranpsort</title>
 
 </head>
@@ -14,7 +14,7 @@
         <div class="row">
             <div class="col span-1-of-2">
                 <div class="logo">
-                    <img src="./obrazky/logoSipky.png" alt="logo" class="logo-sipky">
+                    <img src="../obrazky/logoSipky.png" alt="logo" class="logo-sipky">
                     <h1>Teichmann<span class="orange">Transport</span></h1>
                 </div>
             </div>
@@ -35,24 +35,38 @@
                 </div>
             </div>
             <div class="col span-1-of-2 obrazky">
-                <img src="./obrazky/plane.svg" alt="letadlo">
-                <img src="./obrazky/car.svg" alt="auto">
-                <img src="./obrazky/hand.svg" alt="ruka">
-            </div>  
+                <img src="../obrazky/plane.svg" alt="letadlo">
+                <img src="../obrazky/car.svg" alt="auto">
+                <img src="../obrazky/hand.svg" alt="ruka">
+            </div>
         </div>
        
         <div class="row extended">
             <nav>
                 <ul class="hlavni-navigace">
-                    <li><a href="./pages/leteckaPreprava.html">Letecká přeprava</a></li>
-                    <li><a href="./pages/silnicniPreprava.html">Silniční přeprava</a></li>
-                    <li><a href="./pages/lodniPreprva.html">Lodní přeprava</a></li>
-                    <li><a href="./pages/kontakt.html">Kontakt</a></li>
+                    <li><a href="../pages/leteckaPreprava.html">Letecká přeprava</a></li>
+                    <li><a href="../pages/silnicniPreprava.html" class="active">Silniční přeprava</a></li>
+                    <li><a href="../pages/lodniPreprva.html">Lodní přeprava</a></li>
+                    <li><a href="../pages/kontakt.html">Kontakt</a></li>
                 </ul>
             </nav>
         </div>
-  
     </header>
+
+    <section class="silnicni-preprava">
+        <div class="row">
+            <div class="col span-1-of-2">
+                <h3>Vnitrostátní silniční přeprava</h3><br>
+                <p>
+                Zajišťujeme silniční přepravu nákladů na míru za zvýhodněné ceny po celé ČR
+                <br><br>Express dopravu / balíkovou dopravu
+                <br><br>Vozový park aut značky Mercedes Benz Sprinter
+                <br><br>Přeprava zásilek od 1 kg do 1 200 kg
+                <br><br>Pro nacenění přepravy nás prosím kontaktujte na Dav.Teichmann@gmail.com
+                </p>
+            </div>
+        </div>
+    </section>
     <section class="section-form">
             <div class="row">
                 <h2>Rychlý kontakt</h2>
@@ -67,6 +81,7 @@
                             <div class="col span-2-of-3">
                                 <input type="text" name="name" id="name" placeholder="Vaše jméno" required>
                             </div>
+                            
                         </div>
                         <div class="row">
                             <div class="col span-1-of-3">
@@ -99,14 +114,14 @@
                             <div class="col span-2-of-3">
                                 <input type="submit" value="Send it!"> 
                             </div>
-                        </div>   
+                        </div>  
                     </form>
                 </div>
             </div>
-        </section> 
-                    
-    
+        </section>   
+         
         
     
 </body>
 </html>
+
