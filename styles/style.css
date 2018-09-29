@@ -63,7 +63,7 @@ header {
     padding: 10px 10px 10px 10px;
 }
 .kontakt span {
-    color: rgba(243,146,0,1);
+    color: #e67e22;
 }
 .logo-sipky {
     display: inline-block;
@@ -121,7 +121,7 @@ p {
     text-align: left;
 }
 .orange{
-    color:  rgba(243,146,0,1);
+    color: #e67e22;
 }
 
 /* ---------------------------- */
@@ -178,19 +178,23 @@ nav {
 
 .letecka-preprava {
     padding: 30px;
+    margin: 30px 10px 60px
 }
 
 .silnicni-preprava {
     padding: 30px;
+    margin: 30px 10px 60px
 }
 
 .lodni-preprava {
     padding: 30px;
     text-align: center;
+    margin: 30px 10px 60px
 }
 
 .kontakty {
     padding: 30px;
+    margin: 30px 10px 60px
 } 
 
 /* ---------------------------- */
@@ -203,7 +207,8 @@ nav {
 }
 
 .contact-form {
-    width: 150%;
+    width: auto;
+    
 }
 
 input[type=text],
@@ -213,4 +218,19 @@ textarea {
     padding: 7px;
     border: 1px solid black;
     border-radius: 3px;
+}
+
+input[type=submit] {
+    background-color: #e67e22;
+    border: 1px solid #e67e22; border-radius: 6px;
+    color: #fff;
+    padding: 10px;
+}
+
+.cenova-nabidka p {
+    color: #fff;
+    text-align: left;
+    padding-left: 60px;
+    border-left: 1px solid white;
+
 }
